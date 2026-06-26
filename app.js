@@ -19,7 +19,7 @@ export default function appSrc(express, bodyParser, createReadStream, crypto, ht
         next()
     })
 
-    const login = 'itmo409280'
+    const login = 'alenaorlova'
 
     app.get('/login/', (req, res) => {
         res.send(login)
